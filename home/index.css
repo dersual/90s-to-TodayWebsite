@@ -13,6 +13,19 @@
       2px 12.2px 16.4px -0.6px hsl(var(--shadow-color) / 0.72),
       3.8px 23.7px 31.9px -0.9px hsl(var(--shadow-color) / 0.9),
       7.2px 44.4px 59.7px -1.2px hsl(var(--shadow-color) / 1);
+  }   
+  header { 
+    background-color: #f3f3f3; 
+    width:100%; 
+    height:auto;  
+    position:fixed; 
+    z-index: 5; 
+    top: 0; 
+    height: 60px;
+  } 
+  header > title { 
+    font-size: 18px; 
+    display: inline;
   }
   .design-section {
     display: flex;
@@ -21,7 +34,6 @@
     justify-content: center;
     background-color: #1f1f1f;
     min-height: 100vh;
-    padding: 100px 0;
     font-family: Jost;
   }
   

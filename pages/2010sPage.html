@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body> 
-    <header> 
-        
-    </header> 
-    <section></section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="/2010sWebsite/index.css" type="text/css" />
+    <script src="/2010sWebsite/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/eb633b28da.js" crossorigin="anonymous"></script>
+    <title>Timeline of Wesites and Web Development, The 2010s!</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/index.html">Timeline of Websites and Web Development</a></h1>
+      <nav class="nav_header" id="nav_nonmobile">
+        <ul class="list_nav">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li><a href="90sPage.html">The 1990s</a></li>
+          <li><a href="2000sPage.html">The 2000s</a></li>
+          <li><a href="2020sPage.html">The 2020s</a></li>
+          <li class="tableOfContents">
+            <div class="button_tableOfContent">
+              Table of Contents <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="dropDownContent">
+              <a href="#introduction">Introduction</a>
+              <a href="#webGeneralInfo">The Web in the 2010s</a>
+              <a href="#webDevInfo">State of Web Development</a>
+              <a>Conclusion</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav_header" id="toggler_mobileNav">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div id="overlay_mobileNav"></div>
+    </header>
+    <main>
+      <section class="section_landing">
+        <div id="introduction">
+          <h1>Welcome To The 2010s</h1>
+          <h2 class="header_section">Introduction</h2>
+          <p></p>
+        </div>
+      </section>
+      <section>
+        <div id="webGeneralInfo">
+          <p
+            class="codepen"
+            data-height="300"
+            data-default-tab="html,result"
+            data-slug-hash="bGxvQd"
+            data-user="VincentGarreau"
+            style="
+              height: 300px; 
+              width: max(50vw, 300px);
+              box-sizing: border-box;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 2px solid;
+              margin: 1em 0;
+              padding: 1em;
+            "
+          >
+            <span
+              >See the Pen
+              <a href="https://codepen.io/VincentGarreau/pen/bGxvQd"> particles.js</a> by Vincent
+              Garreau (<a href="https://codepen.io/VincentGarreau">@VincentGarreau</a>) on
+              <a href="https://codepen.io">CodePen</a>.</span
+            >
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+      </section>
+      <section>
+        <div id="webDevInfo"></div>
+      </section>
+    </main>
+    <aside>
+      <nav id="nav_mobile">
+        <ul class="list_nav">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li><a href="90sPage.html">The 1990s</a></li>
+          <li><a href="2000sPage.html">The 2000s</a></li>
+          <li><a href="2020sPage.html">The 2020s</a></li>
+          <li class="tableOfContents">
+            <div class="button_tableOfContent">
+              Table of Contents <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="dropDownContent mobile_dropDown">
+              <a href="#introduction">Introduction</a>
+              <a href="#webGeneralInfo">The Web in the 2010s</a>
+              <a href="#webDevInfo">State of Web Development</a>
+              <a>Conclusion</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+  </body>
 </html>

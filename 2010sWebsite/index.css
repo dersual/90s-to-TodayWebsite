@@ -160,12 +160,16 @@ section > * {
 }
 div > h1 {
   font-size: clamp(2.5rem, 5.5vw, 4rem);
-} 
-.header_section {   
-    font-size: clamp(1.5rem, 3.5vw, 2rem);
 }
-div > h1, .header_section {
+.header_section {
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+}
+div > h1,
+.header_section {
   color: var(--accented-color);
+}
+#introduction > p {
+  color: var(--lightest-color);
 }
 aside {
   position: fixed;
@@ -204,6 +208,36 @@ aside {
 }
 #overlay_mobileNav[visible="true"] {
   display: block;
+}
+
+.infoContainerOdd {
+  background-color: var(--lightest-color);
+  color: var(--darkest-color);
+}  
+table { 
+    display:inline-block;
+}
+table:nth-child(odd) > * > tr > td, table:nth-child(odd) > * > tr > th { 
+    border: var(--darkest-color) solid 1px;
+    background: var(--lightest-color);
+} 
+table:nth-child(even) > * > tr > td, table:nth-child(even) > * > tr > th {
+    border: var(--lightest-color) solid 1px;
+    background: var(--lightest-color) 
+}
+table:nth-child(odd) {
+  border: var(--darkest-color) solid 1px;
+  background: var(--lightest-color);
+  width: max(50%, 300px);
+}
+table:nth-child(even) {
+  border: var(--lightest-color) solid 1px;
+  background: var(--darkest-color);
+  width: max(50%, 300px);
+}
+.infoContainerEven {
+  background-color: var(--darkest-color);
+  color: var(--lightest-color);
 }
 @media screen and (max-width: 920px) {
   #nav_nonmobile {
